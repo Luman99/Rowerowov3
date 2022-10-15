@@ -33,7 +33,7 @@ class AddSpell extends React.Component {
         }
     }
     SubmitData() {
-        axios.post('https://userowo2.herokuapp.com/api/create/', {
+        axios.post('https://rowerowov4.herokuapp.com/api/create/', {
             name: this.state.name,
             description : this.state.description 
         })

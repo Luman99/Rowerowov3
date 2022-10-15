@@ -32,7 +32,7 @@ class ViewSpell extends React.Component {
         }
     }
     componentDidMount() {
-        axios.get('https://userowo2.herokuapp.com/api/view/')
+        axios.get('https://rowerowov4.herokuapp.com/api/view/')
             .then(response => {
                 console.log(response);
                 this.setState({
