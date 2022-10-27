@@ -10,13 +10,11 @@ axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 function App() {
   return (
     <div>
-
+        aaaaaa
       <Router>
         <Navbar />
         <Routes>
-            aaaaaa
-          <Route path="/addSpell" component={AddSpell} />
-          <Route path="/viewSpell" component={ViewSpell} />
+
         </Routes>
       </Router>
     </div>
